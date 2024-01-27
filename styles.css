@@ -69,7 +69,54 @@ body {
 
 .facts-section {
   width: 300px;
+  text-align: justify;
+  font-size: 18px;
 }
 
-.facts-img {
+.facts-img:hover {
+  opacity: 0.9;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to top right, #87ceeb, #9370db);
+}
+
+#business-card {
+  margin: 50px 0;
+  width: 60%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-color: #8a2be2;
+}
+
+#img-mayor {
+  width: 350px;
+  height: 350px;
+  margin: 0 50px;
+  border: 5px solid whitesmoke;
+  border-radius: 5px;
+}
+
+#info-mayor {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#mayor-name {
+  margin-bottom: 20px;
+}
+
+.mayor-info-paragraph {
+  font-size: 30px;
+  margin: 20px 40px;
+}
+
+.oswald-font {
+  font-family: "Oswald", sans-serif;
 }
