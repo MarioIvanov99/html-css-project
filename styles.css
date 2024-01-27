@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#city-history {
+  height: 100vp;
+  background: #f7cb15;
+  color: #112a46;
+}
+
+#msg-welcome {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#img-waterfront {
+  width: 40%;
+  margin: 0 2% 50px 8%;
+  border: 6px solid wheat;
+  border-radius: 1%;
+}
+
+#city-description {
+  display: flex;
+  align-items: start;
+}
+
+#description-text {
+  text-align: justify;
+  width: 40%;
+  margin: 0 8% 0 2%;
+  font-size: 200%;
+}
+
+#description-text p {
+  line-height: 1.5;
+}
+
+#learn-btn {
+  padding: 5px 10px;
+  font-size: large;
+  border: 3px solid #112a46;
+  border-radius: 30px;
+  color: #112a46;
+  background-color: #fffa90;
+}
+
+#learn-btn:hover {
+  background-color: #feff22;
+}
+
+#city-facts {
+  background: mediumaquamarine;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.facts-img {
+  width: 300px;
+  border: 5px solid indianred;
+  border-radius: 50%;
+}
+
+.facts-section {
+  width: 300px;
+}
+
+.facts-img {
+}
